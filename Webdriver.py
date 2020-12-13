@@ -7,5 +7,6 @@ searchbox.send_keys('titan watches')
 Button = web.find_element_by_xpath('//*[@id="container"]/div/div[1]/div[1]/div[2]/div[2]/form/div/button')
 Button.click()
 
-Brand = web.fin_elemet_by_xpath('//*[@id="container"]/div/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div/section[4]/div')
-Brand = web.clickNthProductFromTheList(10)
+checkbox = web.find_element_by_xpath('//*[@id="container"]/div/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div/section[4]')
+sel=Select(checkbox)
+sel.select_by_visible_text('//*[@id="container"]/div/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div/section[4]/div[2]/div/div[1]/div/div/label/input')
