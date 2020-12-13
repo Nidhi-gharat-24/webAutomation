@@ -12,3 +12,7 @@ type command= pip install selenium then enter
 
 Step3
 Run the webdriver.py code
+
+![webautomation](https://user-images.githubusercontent.com/69667751/102006319-46a47c80-3cee-11eb-8283-faeaa19b88d7.JPG)
+
+When search button click show the result
